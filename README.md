@@ -12,9 +12,10 @@ In this project we collect data of egyptian papers by sending API requests to se
 + The data specifically focuses on researchers affiliated with the following universities: Ain Shams University, Cairo University, EJUST University, Alexandria University, Banha University, Assiut University, and Zewail University.   
 
 #### 1.2. Getting the data of the papers written by these authors using semantic scholar API.
-After this step, we obtained our final dataset consisting of 31,508 research papers.This is the data set that we analyze in the project. Each paper in the dataset includes at least one researcher who is either from Egypt or affiliated with an Egyptian university. In our dataset, each paper includes important information such as its title, unique paper ID in semantic scholar, publication year, and a list of authors with their respective names and IDs in semantic scholar. Furthermore, we collected the number of references cited in each paper and added a list of all the references, including their titles and corresponding IDs for each paper in the dataset.
-
-To collect the dataset, we utilized the Semantic Scholar API to request the data of each author identified in the initial stage. These requests enabled us to collect a dataset containing the titles, publication IDs, and publication times of their respective papers. Additionally, we used further API requests with each paper's ID to retrieve information regarding its references, number of citations, and the names of all authors associated with the publication.
++ Final dataset: 31,508 research papers.
++ Each paper includes at least one researcher from Egypt or affiliated with an Egyptian university.
++ Paper details: title, unique paper ID, publication year, and a list of authors with their names, IDs in semantic scholar, Number of references cited and a list of all reference titles and corresponding IDs for each paper.
++ Final dataset collection methodology: Utilized Semantic Scholar API to request data for each author identified initially in the dataset collected earlier.
 
 ## Acknowledgments
 This work was made possible in part with funding to VIT from [NIH grant P01AG039347](https://projectreporter.nih.gov/project_info_description.cfm?aid=8475017&icde=18058490) and [NSF grant 1348742](http://www.nsf.gov/awardsearch/showAward?
