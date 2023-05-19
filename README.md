@@ -3,7 +3,11 @@ Code for reproducing the experiments, figures, and tables presented in the paper
 **Mishra, S., Fegley, B. D., Diesner, J., & Torvik, V. I. (2018). Self-Citation is the Hallmark of Productive Authors, of Any Gender. PLoS One.**  Replication steps provided in [REPLICATION.md](REPLICATION.md)  
 
 ## Data  
-Our experiments relied on data from multiple sources including properitery data from [Thompson Rueter's (now Clarivate Analytics) Web of Science collection of
+In this project we collect data of egyptian papers and then we do analysis on them. Our project is performed as in the following steps:
+
+###1.1. webscrabing google scholar (the professors profiles page) to collect a data set of the professors names and their affiliations.
+
+###1.2. Getting the data of the papers written by these authors using semantic scholar API. 
 
 ## Acknowledgments
 This work was made possible in part with funding to VIT from [NIH grant P01AG039347](https://projectreporter.nih.gov/project_info_description.cfm?aid=8475017&icde=18058490) and [NSF grant 1348742](http://www.nsf.gov/awardsearch/showAward?
