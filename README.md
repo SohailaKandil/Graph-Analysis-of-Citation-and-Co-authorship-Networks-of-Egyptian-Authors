@@ -20,7 +20,7 @@ In this project we collect data of egyptian papers by sending API requests to se
  + The Semantic Scholar API key allows a request rate of 100 requests per second.
  + The API returns a maximum of 500 authors' data for each paper.
  + The API returns a maximum of 1000 references for each paper.
-[For more information on semantic scholar API requests visit: ]([URL](https://api.semanticscholar.org/api-docs?utm_medium=email&_hsmi=230452164&_hsenc=p2ANqtz-_qqTwwj9_nmTTO1Rgps8SST_95rgUi3jjt4VxwQ6BOaFkEntuUMB8csVGToUyoMQSRQzZT6HYiybCLxIdnx3v4VVoIhA&utm_content=230452164&utm_source=hs_automation))
+[For more information on semantic scholar API requests visit: ](https://api.semanticscholar.org/api-docs?utm_medium=email&_hsmi=230452164&_hsenc=p2ANqtz-_qqTwwj9_nmTTO1Rgps8SST_95rgUi3jjt4VxwQ6BOaFkEntuUMB8csVGToUyoMQSRQzZT6HYiybCLxIdnx3v4VVoIhA&utm_content=230452164&utm_source=hs_automation)
 
  
 
