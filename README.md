@@ -6,9 +6,10 @@ Code for reproducing the experiments, figures, and tables presented in the paper
 In this project we collect data of egyptian papers by sending API requests to semantic scholar website using the API key for a higher requests rate. Then we do analysis on them. Data collection is performed in the following Two stages:
 
 #### 1.1. webscrabing google scholar (the professors profiles page) to collect a data set of the professors names and their affiliations.
-+ The data set size is 13,027 of Egyptian researchers names and affiliations.
-+ This dataset is collected by webscrabing Google scholar website. the data is for researchers in the following universities: Ain Shams University, Cairo University, EJUST university, Alexandria University, Banha University, Assiut University, and Zewail University.
-+ The tool used for scrabing is python library Selenium.    
++ The dataset comprises information on 13,027 researchers, including both Egyptians and individuals affiliated with Egyptian universities.
++ The data provides details about the researchers' names and affiliations.
++ This dataset is collected by scraping the Google Scholar website using Python library Selenium.
++ The data specifically focuses on researchers affiliated with the following universities: Ain Shams University, Cairo University, EJUST University, Alexandria University, Banha University, Assiut University, and Zewail University.   
 
 #### 1.2. Getting the data of the papers written by these authors using semantic scholar API.
 After this step, we obtained our final dataset consisting of 31,508 research papers.This is the data set that we analyze in the project. Each paper in the dataset includes at least one researcher who is either from Egypt or affiliated with an Egyptian university. In our dataset, each paper includes important information such as its title, unique paper ID in semantic scholar, publication year, and a list of authors with their respective names and IDs in semantic scholar. Furthermore, we collected the number of references cited in each paper and added a list of all the references, including their titles and corresponding IDs for each paper in the dataset.
