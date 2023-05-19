@@ -5,9 +5,9 @@ Code for reproducing the experiments, figures, and tables presented in the paper
 ## Data  
 In this project we collect data of egyptian papers and then we do analysis on them. Our project is performed as in the following steps:
 
-###1.1. webscrabing google scholar (the professors profiles page) to collect a data set of the professors names and their affiliations.
+### 1.1. webscrabing google scholar (the professors profiles page) to collect a data set of the professors names and their affiliations.
 
-###1.2. Getting the data of the papers written by these authors using semantic scholar API. 
+### 1.2. Getting the data of the papers written by these authors using semantic scholar API. 
 
 ## Acknowledgments
 This work was made possible in part with funding to VIT from [NIH grant P01AG039347](https://projectreporter.nih.gov/project_info_description.cfm?aid=8475017&icde=18058490) and [NSF grant 1348742](http://www.nsf.gov/awardsearch/showAward?
