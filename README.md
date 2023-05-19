@@ -17,9 +17,9 @@ In this project we collect data of egyptian papers by sending API requests to se
 + Paper details: title, unique paper ID, publication year, and a list of authors with their names, IDs in semantic scholar, Number of references cited and a list of all reference titles and corresponding IDs for each paper.
 + Final dataset collection methodology: Utilized Semantic Scholar API to request data for each author identified initially in the dataset collected earlier.
 + API requests limitations:
- + The Semantic Scholar API key allows a request rate of 100 requests per second.
- + The API returns a maximum of 500 authors' data for each paper.
- + The API returns a maximum of 1000 references for each paper.
+  + The Semantic Scholar API key allows a request rate of 100 requests per second.
+  + The API returns a maximum of 500 authors' data for each paper.
+  + The API returns a maximum of 1000 references for each paper.
 + [For more information on semantic scholar API requests click here](https://api.semanticscholar.org/api-docs?utm_medium=email&_hsmi=230452164&_hsenc=p2ANqtz-_qqTwwj9_nmTTO1Rgps8SST_95rgUi3jjt4VxwQ6BOaFkEntuUMB8csVGToUyoMQSRQzZT6HYiybCLxIdnx3v4VVoIhA&utm_content=230452164&utm_source=hs_automation)
 
  
