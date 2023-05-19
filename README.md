@@ -6,6 +6,7 @@ Code for reproducing the experiments, figures, and tables presented in the paper
 In this project we collect data of egyptian papers by sending API requests to semantic scholar website using the API key for a higher requests rate. Then we do analysis on them. Data collection is performed in the following Two stages:
 
 #### 1.1. webscrabing google scholar (the professors profiles page) to collect a data set of the professors names and their affiliations.
++ The data set size is 13,027 of Egyptian researchers names and affiliations.
 In the initial stage, we performed web scraping on the Google Scholar website to obtain a dataset of size 13,027. This dataset included author names and affiliations. To accomplish this, we utilized the Selenium library in Python. To prevent exceeding the data scraping rate imposed by Google Scholar, we implemented a structured approach. Specifically, we collected data for each university in a single session, ensuring sufficient time intervals between each scraping instance. The data collection process focused on researchers from prominent Egyptian universities such as Ain Shams University, Cairo University, EJUST university, Alexandria University, Banha University, Assiut University, and Zewail University.    
 
 #### 1.2. Getting the data of the papers written by these authors using semantic scholar API.
