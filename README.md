@@ -25,8 +25,7 @@ In this project we collect data of egyptian papers by sending API requests to se
  
 
 ## Acknowledgments
-This work was made possible in part with funding to VIT from [NIH grant P01AG039347](https://projectreporter.nih.gov/project_info_description.cfm?aid=8475017&icde=18058490) and [NSF grant 1348742](http://www.nsf.gov/awardsearch/showAward?
-AWD_ID=1348742). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of the dataset.
 
 ## License  
 Self-citation analysis data based on PubMed Central subset (2002-2005) by Shubhanshu Mishra, Brent D. Fegley, Jana Diesner, and Vetle Torvik is licensed under a Creative Commons Attribution 4.0 International License. Permissions beyond the scope of this license may be available at https://github.com/napsternxg/PubMed_SelfCitationAnalysis.
