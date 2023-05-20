@@ -22,10 +22,11 @@ In this project we collect data of egyptian papers by sending API requests to se
   + The API returns a maximum of 1000 references for each paper.
 + [For more information regarding semantic scholar API requests click here](https://api.semanticscholar.org/api-docs?utm_medium=email&_hsmi=230452164&_hsenc=p2ANqtz-_qqTwwj9_nmTTO1Rgps8SST_95rgUi3jjt4VxwQ6BOaFkEntuUMB8csVGToUyoMQSRQzZT6HYiybCLxIdnx3v4VVoIhA&utm_content=230452164&utm_source=hs_automation)
 
- 
-
 ## Acknowledgments
 We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of the dataset.
+
+## Contributors
+[@mariamAmy, @Sohaila Kandil]
 
 ## License  
 Self-citation analysis data based on PubMed Central subset (2002-2005) by Shubhanshu Mishra, Brent D. Fegley, Jana Diesner, and Vetle Torvik is licensed under a Creative Commons Attribution 4.0 International License. Permissions beyond the scope of this license may be available at https://github.com/napsternxg/PubMed_SelfCitationAnalysis.
