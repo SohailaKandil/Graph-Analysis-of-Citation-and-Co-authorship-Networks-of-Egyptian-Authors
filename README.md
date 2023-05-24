@@ -27,7 +27,7 @@ In this project we collect data of egyptian papers by sending API requests to se
 We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of the dataset.
 
 ## Contributors
-[ <a href="https://github.com/MariamAmy">Mariam Ayman</a> - <a href="https://github.com/ahmedhjaj/">Ahmed Hagag</a>] - [ <a href="https://github.com/MariamAmy">Mariam Ayman</a>] - [ <a href="https://github.com/SohailaKandil">Sohaila Kandil</a>] - [ <a href="https://github.com/youssef-elharty">Youssef El-harty</a>]
+[ <a href="https://github.com/MariamAmy">Mariam Ayman</a> -  <a href="https://github.com/SohailaKandil">Sohaila Kandil</a> - <a href="https://github.com/youssef-elharty">Youssef El-harty</a> - <a href="https://github.com/ahmedhjaj/">Ahmed Hagag</a> - <a href="https://github.com/ProbablyOmar">Omar Wassim</a> - <a href="https://github.com/alaaamoheb">Alaa Moheb</a>]
 
 ## License  
 Self-citation analysis data based on PubMed Central subset (2002-2005) by Shubhanshu Mishra, Brent D. Fegley, Jana Diesner, and Vetle Torvik is licensed under a Creative Commons Attribution 4.0 International License. Permissions beyond the scope of this license may be available at https://github.com/napsternxg/PubMed_SelfCitationAnalysis.
