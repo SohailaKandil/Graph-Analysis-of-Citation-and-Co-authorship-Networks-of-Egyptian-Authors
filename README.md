@@ -1,6 +1,6 @@
 # Graph Analysis of Citation & Co-authorship Networks of Egyptian Authors
 
-The study conducts a comprehensive analysis of citation networks focusing on publications by authors affiliated with Egyptian institutions. Leveraging the Semantic Scholar platform and its API, a citation network graph is constructed to visualize the interconnections among these publications. The primary objective is to identify influential Egyptian publications and assess the centrality of nodes within the citation network. Through meticulous data collection including web scraping techniques, we obtained a cleaned dataset comprising publications by authored affiliated with Egyptian institutions. The analysis addresses challenges related to data quality, technical intricacies, and time constraints, resulting in a reliable and robust dataset. The findings provide valuable information on the impact of Egyptian publications, offering insights into the scholarly influence of authors associated with Egyptian institutions. This research equips researchers and academics interested in evaluating the impact of Egyptian publications with valuable data for future studies, collaborations, and policy decisions.
+The study conducts a comprehensive analysis of citation networks focusing on publications by authors affiliated with Egyptian institutions. Leveraging the Semantic Scholar platform and its API, a citation network ana a co-authoship network graphs are constructed to visualize the interconnections among these publications and their authors mainly using the python package for graph analysis (Networkx). The primary objective is to identify influential Egyptian publications and assess the centrality of nodes within the citation network. Te findings provide valuable information on the impact of Egyptian publications, offering insights into the scholarly influence of authors associated with Egyptian institutions. This research equips researchers and academics interested in evaluating the impact of Egyptian publications with valuable data for future studies, collaborations, and policy decisions.
 
 
 ## Dataset [AlGoNet]
@@ -22,6 +22,25 @@ Data of egyptian papers was collected by sending API requests to semantic schola
   + The API returns a maximum of 500 authors' data for each paper.
   + The API returns a maximum of 1000 references for each paper.
 + [Check any updated info regarding semantic scholar API requests](https://api.semanticscholar.org/api-docs?utm_medium=email&_hsmi=230452164&_hsenc=p2ANqtz-_qqTwwj9_nmTTO1Rgps8SST_95rgUi3jjt4VxwQ6BOaFkEntuUMB8csVGToUyoMQSRQzZT6HYiybCLxIdnx3v4VVoIhA&utm_content=230452164&utm_source=hs_automation)
+
+
+The following studies were conducted and illustrated in our paper:
+## Analysis of Citation Network
+#### 1. Temporal Analysis of Publications
+#### 2. Degree Distribution Analysis
+#### 3. Authorship Pattern Analysis
+#### 4. Clustering Coefficients
+#### 5. Density Analysis
+#### 6. Centrality Measures
+  + Average Degree Centrality for the all collected paper
+  + Degree Centrality for Publications (>2015)
+  + Eigenvector Centrality for Publications (>2015)
+#### 7. Strongly Connected Components
+
+## Analysis of Co-authorship Network
+#### 1. Degree Centrality Measures
+#### 2. onnected Components Analysis
+
 
 ## Acknowledgments
 We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of the dataset.
