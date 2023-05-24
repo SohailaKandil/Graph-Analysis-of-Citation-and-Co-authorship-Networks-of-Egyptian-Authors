@@ -46,7 +46,7 @@ You can explore all the findings and outcomes as well as our interpretaion from 
 
 
 ## Acknowledgments
-We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of the dataset.
+We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of our dataset (AlGoNet).
 
 ## Contributors
 [ <a href="https://github.com/MariamAmy">Mariam Ayman</a> -  <a href="https://github.com/SohailaKandil">Sohaila Kandil</a> - <a href="https://github.com/youssef-elharty">Youssef El-harty</a> - <a href="https://github.com/ahmedhjaj/">Ahmed Hagag</a> - <a href="https://github.com/ProbablyOmar">Omar Wassim</a> - <a href="https://github.com/alaaamoheb">Alaa Moheb</a>]
