@@ -5,9 +5,7 @@ The study conducts a comprehensive analysis of citation networks focusing on pub
 ## Dataset [AlGoNet]
 Note: 
 
-Due to the huge size of the files,
-You can access our dataset throught this link [AlGoNet](https://drive.google.com/file/d/1rp_K_2AzR0z12rWGr8N8T_G-2M-8ZBAM/view?usp=sharing)
-Also, all the code related to the web scraping and the cleaning of our dataset are available on this [Drive Link](https://drive.google.com/drive/folders/1frdiLKuoqZKq0Fj-oGrzOuitY0ZW79_b?usp=sharing)
+Due to the huge size of the files, you can access our dataset throught this link [AlGoNet](https://drive.google.com/file/d/1rp_K_2AzR0z12rWGr8N8T_G-2M-8ZBAM/view?usp=sharing). Also, all the code related to the web scraping and the cleaning of our dataset are available on this [Drive Link](https://drive.google.com/drive/folders/1frdiLKuoqZKq0Fj-oGrzOuitY0ZW79_b?usp=sharing)
 
 Data of the egyptian papers was collected by sending API requests to semantic scholar website using the API key for a higher requests rate. There are 2 main stages:
 
