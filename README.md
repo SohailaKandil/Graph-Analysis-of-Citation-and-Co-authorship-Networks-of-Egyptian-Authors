@@ -1,27 +1,27 @@
-# Graph Analysis of Citation and Co-authorship Networks of Egyptian Authors
+# Graph Analysis of Citation & Co-authorship Networks of Egyptian Authors
 
-Code for reproducing the experiments, figures, and tables presented in the paper 
-**Mishra, S., Fegley, B. D., Diesner, J., & Torvik, V. I. (2018). Self-Citation is the Hallmark of Productive Authors, of Any Gender. PLoS One.**  Replication steps provided in [REPLICATION.md](REPLICATION.md)  
+The study conducts a comprehensive analysis of citation networks focusing on publications by authors affiliated with Egyptian institutions. Leveraging the Semantic Scholar platform and its API, a citation network graph is constructed to visualize the interconnections among these publications. The primary objective is to identify influential Egyptian publications and assess the centrality of nodes within the citation network. Through meticulous data collection including web scraping techniques, we obtained a cleaned dataset comprising publications by authored affiliated with Egyptian institutions. The analysis addresses challenges related to data quality, technical intricacies, and time constraints, resulting in a reliable and robust dataset. The findings provide valuable information on the impact of Egyptian publications, offering insights into the scholarly influence of authors associated with Egyptian institutions. This research equips researchers and academics interested in evaluating the impact of Egyptian publications with valuable data for future studies, collaborations, and policy decisions.
 
-## Data  
-In this project we collect data of egyptian papers by sending API requests to semantic scholar website using the API key for a higher requests rate. Then we do analysis on them. Data collection is performed in the following Two stages:
 
-#### 1. webscrabing google scholar (the professors profiles page) to collect a data set of the professors names and their affiliations.
+## Dataset [AlGoNet]
+Data of egyptian papers was collected by sending API requests to semantic scholar website using the API key for a higher requests rate. There are wo main stages:
+
+#### 1. Webscrabing Google Scholar:
++ Dataset provides details about the researchers' names and affiliations.
 + The dataset comprises information on 13,027 researchers, including both Egyptians and individuals affiliated with Egyptian universities.
-+ The data provides details about the researchers' names and affiliations.
-+ This dataset is collected by scraping the Google Scholar website using Python library Selenium.
-+ The data specifically focuses on researchers affiliated with the following universities: Ain Shams University, Cairo University, EJUST University, Alexandria University, Banha University, Assiut University, and Zewail University.   
++ Scraping was done using Python library Selenium.
++ Data collected on researchers affiliated with the following universities: Ain Shams University, Cairo University, EJUST University, Alexandria University, Banha University, Assiut University, and Zewail University.   
 
-#### 2. Getting the data of the papers written by these authors using semantic scholar API.
+#### 2. Data of those authors' papers using Semantic Scholar API:
 + Final dataset: 31,508 research papers.
 + Each paper includes at least one researcher from Egypt or affiliated with an Egyptian university.
-+ Paper details: title, unique paper ID, publication year, and a list of authors with their names, IDs in semantic scholar, Number of references cited and a list of all reference titles and corresponding IDs for each paper.
-+ Final dataset collection methodology: Utilized Semantic Scholar API to request data for each author identified initially in the dataset collected earlier.
-+ API requests limitations:
++ Paper details: title, unique paper ID, publication year, and a list of authors' names, IDs in semantic scholar, citation count and a list of all references titles and corresponding IDs for each.
+
++ API Requests Limitations:
   + The Semantic Scholar API key allows a request rate of 100 requests per second.
   + The API returns a maximum of 500 authors' data for each paper.
   + The API returns a maximum of 1000 references for each paper.
-+ [For more information regarding semantic scholar API requests click here](https://api.semanticscholar.org/api-docs?utm_medium=email&_hsmi=230452164&_hsenc=p2ANqtz-_qqTwwj9_nmTTO1Rgps8SST_95rgUi3jjt4VxwQ6BOaFkEntuUMB8csVGToUyoMQSRQzZT6HYiybCLxIdnx3v4VVoIhA&utm_content=230452164&utm_source=hs_automation)
++ [Check any updated info regarding semantic scholar API requests](https://api.semanticscholar.org/api-docs?utm_medium=email&_hsmi=230452164&_hsenc=p2ANqtz-_qqTwwj9_nmTTO1Rgps8SST_95rgUi3jjt4VxwQ6BOaFkEntuUMB8csVGToUyoMQSRQzZT6HYiybCLxIdnx3v4VVoIhA&utm_content=230452164&utm_source=hs_automation)
 
 ## Acknowledgments
 We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of the dataset.
