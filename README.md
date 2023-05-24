@@ -25,6 +25,7 @@ Data of egyptian papers was collected by sending API requests to semantic schola
 
 
 The following studies were conducted and illustrated in our paper:
+
 ## Analysis of Citation Network
 #### 1. Temporal Analysis of Publications
 #### 2. Degree Distribution Analysis
@@ -39,7 +40,9 @@ The following studies were conducted and illustrated in our paper:
 
 ## Analysis of Co-authorship Network
 #### 1. Degree Centrality Measures
-#### 2. onnected Components Analysis
+#### 2. Connected Components Analysis
+
+You can explore all the findings and outcomes as well as our interpretaion from our paper, or by running the code in .ipynb file. All of the supplements are attached to this repo.  
 
 
 ## Acknowledgments
@@ -48,5 +51,3 @@ We would like to express our deepest gratitude to Eng. Zeyad Shokry for his inva
 ## Contributors
 [ <a href="https://github.com/MariamAmy">Mariam Ayman</a> -  <a href="https://github.com/SohailaKandil">Sohaila Kandil</a> - <a href="https://github.com/youssef-elharty">Youssef El-harty</a> - <a href="https://github.com/ahmedhjaj/">Ahmed Hagag</a> - <a href="https://github.com/ProbablyOmar">Omar Wassim</a> - <a href="https://github.com/alaaamoheb">Alaa Moheb</a>]
 
-## License  
-Self-citation analysis data based on PubMed Central subset (2002-2005) by Shubhanshu Mishra, Brent D. Fegley, Jana Diesner, and Vetle Torvik is licensed under a Creative Commons Attribution 4.0 International License. Permissions beyond the scope of this license may be available at https://github.com/napsternxg/PubMed_SelfCitationAnalysis.
