@@ -1,4 +1,5 @@
-# Graph_Analysis_of_Citation_Network [![DOI](https://zenodo.org/badge/114928249.svg)](https://zenodo.org/badge/latestdoi/114928249)  
+# Graph Analysis of Citation and Co-authorship Networks of Egyptian Authors
+
 Code for reproducing the experiments, figures, and tables presented in the paper 
 **Mishra, S., Fegley, B. D., Diesner, J., & Torvik, V. I. (2018). Self-Citation is the Hallmark of Productive Authors, of Any Gender. PLoS One.**  Replication steps provided in [REPLICATION.md](REPLICATION.md)  
 
@@ -26,7 +27,7 @@ In this project we collect data of egyptian papers by sending API requests to se
 We would like to express our deepest gratitude to Eng. Zeyad Shokry for his invaluable guidance and assistance with the collection of the dataset.
 
 ## Contributors
-[ <a href="https://github.com/MariamAmy">Mariam Ayman</a>]
+[ <a href="https://github.com/MariamAmy">Mariam Ayman</a> - <a href="https://github.com/ahmedhjaj/">Ahmed Hagag</a>] - [ <a href="https://github.com/MariamAmy">Mariam Ayman</a>] - [ <a href="https://github.com/SohailaKandil">Sohaila Kandil</a>] - [ <a href="https://github.com/youssef-elharty">Youssef El-harty</a>]
 
 ## License  
 Self-citation analysis data based on PubMed Central subset (2002-2005) by Shubhanshu Mishra, Brent D. Fegley, Jana Diesner, and Vetle Torvik is licensed under a Creative Commons Attribution 4.0 International License. Permissions beyond the scope of this license may be available at https://github.com/napsternxg/PubMed_SelfCitationAnalysis.
