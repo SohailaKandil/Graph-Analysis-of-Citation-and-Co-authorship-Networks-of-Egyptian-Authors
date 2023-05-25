@@ -33,13 +33,13 @@ The following studies were conducted and illustrated in our paper:
 #### 1. Temporal Analysis of Publications
 #### 2. Degree Distribution Analysis [O(V+E)]
 #### 3. Authorship Pattern Analysis
-#### 4. Clustering Coefficients [O(v*(d^2))], where d is the degree of the node/vertex
+#### 4. Clustering Coefficients [O(V*(d^2))], where d is the degree of the node/vertex
 #### 5. Density Analysis
 #### 6. Centrality Measures
   + Average Degree Centrality for the all collected paper 
   + Degree Centrality for Publications (>2015)
   + Eigenvector Centrality for Publications (>2015)
-#### 7. Strongly Connected Components [O(v^3)]
+#### 7. Strongly Connected Components [O(V^3)]
 
 ## Analysis of Co-authorship Network
 #### 1. Degree Centrality Measures [O(V+E)]
