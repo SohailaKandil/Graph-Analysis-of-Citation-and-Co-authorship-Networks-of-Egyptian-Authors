@@ -37,8 +37,8 @@ The following studies were conducted and illustrated in our paper:
 #### 5. Density Analysis
 #### 6. Centrality Measures
   + Average Degree Centrality for the all collected paper 
-  + Degree Centrality for Publications (>2015)
-  + Eigenvector Centrality for Publications (>2015)
+  + Degree Centrality for Publications (>2015)  [O(V+E)]
+  + Eigenvector Centrality for Publications (>2015) [O(V*(V+E))]
 #### 7. Strongly Connected Components [O(V^3)]
 
 ## Analysis of Co-authorship Network
